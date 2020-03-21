@@ -1,5 +1,7 @@
 Crawl Stock Data
+
 <a href="https://www.cophieu68.vn">Crawl Data Page</a>
+
 I use Scrapy to crawl <a href = "https://www.cophieu68.vn/historyprice.php?id=MWG">MWG(The gioi di dong)</a> stock data,you can change id by other name.  
 
 Setup:
