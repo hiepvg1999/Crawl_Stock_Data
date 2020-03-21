@@ -16,9 +16,11 @@ Setup:
 
  <li>scrapy crawl stock -o stock.csv</li>
 </ul>
-Note:After have stock.csv with un-sorted data,copy and paste sorted_data.py in order to sort data with datetime col 
---
-in terminal, run "python3 sorted_data.py"  
---
-Remember change path of file csv.
---
+Note:
+
+<p>After have stock.csv with un-sorted data,copy and paste sorted_data.py in order to sort data with datetime col </p>
+
+<p>in terminal, run "python3 sorted_data.py" </p>
+
+<p>Remember change path of file csv.</p>
+
