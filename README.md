@@ -1,4 +1,5 @@
 ##Crawl Stock Data
+
 ##Setup:
 +)pip install scrapy
 
