@@ -1,5 +1,5 @@
-Crawl Stock Data
-Setup:
+**Crawl Stock Data
+**Setup:
 +)pip install scrapy
 +)scrapy startproject StockData
 +)Copy and paste Stock_spider.py into spider directory.
