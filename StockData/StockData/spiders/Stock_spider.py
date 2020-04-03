@@ -29,6 +29,6 @@ class StockSpider(Spider):
             item['Giatri'] = question.xpath('td[14]//text()').extract_first()
             yield item
         next_page = Selector(response).xpath('//*[@id="navigator"]/li/a')
-        for page in next_page[1:]:
+        for page in next_page[2:]:
             if page is not None:
                 yield response.follow(page, callback=self.parse)

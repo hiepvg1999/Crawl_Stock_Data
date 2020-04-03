@@ -1,6 +1,6 @@
 import pandas as pd
 from datetime import datetime
-df =pd.read_csv('/home/hiep/Desktop/Crawl_Stock_Data/StockData/stock.csv')
+df =pd.read_csv('/home/hiep/Desktop/Crawl_Stock_Data/StockData/StockData/stock.csv')
 arr =[]
 for s in df['Ngay']:
     s=datetime.strptime(s,'%d-%m-%Y')
